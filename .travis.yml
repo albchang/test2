@@ -1,4 +1,5 @@
-install: touch configure.ac aclocal.m4 configure Makefile.am Makefile.in && ./configure && make && make check 
+install: touch configure.ac aclocal.m4 configure Makefile.am Makefile.in 
+script: ./configure && make && make check
 language: cpp
 compiler:
   - clang
