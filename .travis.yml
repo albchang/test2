@@ -1,4 +1,4 @@
-install: autoreconf --install
+install: autoreconf --install -Wnone
 
 script: ./configure && make && make check
 
